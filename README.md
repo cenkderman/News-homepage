@@ -35,8 +35,8 @@ Mobile layout
 
 ### Links
 
-- Solution URL: [https://github.com/cenkderman/News-homepage-](https://github.com/cenkderman/News-homepage-)
-- Live Site URL: [https://cenkderman.github.io/News-homepage-/](https://cenkderman.github.io/News-homepage-/)
+- Solution URL: [https://github.com/cenkderman/News-homepage-](https://github.com/cenkderman/News-homepage)
+- Live Site URL: [https://cenkderman.github.io/News-homepage-/](https://cenkderman.github.io/News-homepage/)
 
 ## My process
 
