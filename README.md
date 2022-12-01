@@ -29,6 +29,7 @@ Users should be able to:
 Desktop layout
 ![](./assets/images/desktop_png.png)
 Mobile layout
+
 ![](./assets/images/mobile_png.png)
 
 
