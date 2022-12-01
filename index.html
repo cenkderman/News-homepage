@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | News homepage</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-logo">
+      <img src="./assets/images/logo.svg" alt="logo">
+    </div>
+    <nav class="header-menu" id="navlist">
+      <ul class="menu-link">
+        <li>Home</li>
+        <li>New</li>
+        <li>Popular</li>
+        <li>Trending</li>
+        <li>Categories</li>
+      </ul>
+    </nav>
+    <button class="button" aria-expanded="false">
+      <span class="line top"></span>
+      <span class="line middle"></span>
+      <span class="line bottom"></span>
+    </button>
+  </header>
+  <main>
+    <article class="info-container">
+      <picture>
+        <source media="(min-width: 650px)" srcset="./assets/images/image-web-3-desktop.jpg">
+        <img src="./assets/images/image-web-3-mobile.jpg" alt="web-3">
+      </picture>
+      <section class="info-section">
+          <h1>The Bright Future of Web 3.0?</h1>
+          <div class="info-description">
+          <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+          But is it really fulfilling its promise?
+          </p>
+          <button>Read more</button>
+          </div>
+      </section>
+    </article>
+    <article class="news-container">
+      <h2>New</h2>
+      <section class="news">
+        <h3>Hydrogen VS Electric Cars</h3>
+        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </section>
+      <span></span>
+      <section class="news">
+        <h3>The Downsides of AI Artistry</h3>
+        <p>What are the possible adverse effects of on-demand AI image generation?</p>
+      </section>
+      <span></span>
+      <section class="news">
+        <h3>Is VC Funding Drying Up?</h3>
+        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </section>
+    </article>
+    <article class="tags-container">
+      <section class="tag">
+        <div class="tag-image">
+          <img src="./assets/images/image-retro-pcs.jpg">
+        </div>
+        <div class="tag-description">
+          <h2>01</h2>
+          <h3>Reviving Retro PCs</h3>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </section>
+      <section class="tag">
+        <div class="tag-image">
+          <img src="./assets/images/image-top-laptops.jpg">
+        </div>
+        <div class="tag-description">
+          <h2>02</h2>
+          <h3>Top 10 Laptops of 2022</h3>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+      </section>
+      <section class="tag">
+        <div class="tag-image">
+          <img src="./assets/images/image-gaming-growth.jpg">
+        </div>
+        <div class="tag-description">
+          <h2>03</h2>
+          <h3>The Growth of Gaming</h3>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer>
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/cenkderman">Cenk</a>.
+    </div>
+  </footer>
+  <script src="./app.js"></script>
+</body>
+</html>
+  
+  
+  
+  
